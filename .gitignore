@@ -1,24 +1,7 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
-
 # Node
 /node_modules
 npm-debug.log
 yarn-error.log
-
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
 
 # Visual Studio Code
 .vscode/*
@@ -40,3 +23,27 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Angular
+/dist/
+/tmp/
+/ngu*.*
+/*.js
+/*.js.map
+/*.css
+/*.css.map
+*.ngfactory.ts
+*.ngstyle.ts
+*.ngsummary.json
+*.ngsummary.ts
+/out-tsc
+/bazel-out
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
